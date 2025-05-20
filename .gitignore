@@ -54,3 +54,6 @@ build/
 
 # Windows
 Thumbs.db
+
+# Raw data (downloaded via Kaggle API)
+raw/

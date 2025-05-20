@@ -1,0 +1,13 @@
+name: etl_portfolio
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pyspark
+  - psycopg2
+  - python-dotenv
+  - pandas
+  - sqlalchemy
+  - notebook
+  - kaggle
+prefix: /Users/bryanburzon/miniforge3/envs/etl_portfolio
