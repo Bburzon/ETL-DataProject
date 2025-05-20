@@ -1,0 +1,56 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment vars / secrets
+.env
+*.env
+
+# Data folders (raw, staging, intermediate)
+data/raw/
+data/staging/
+data/intermediate/
+
+# Spark temp & warehouse dirs
+spark-warehouse/
+*.parquet
+*.orc
+*.avro
+
+# Spark logs & staging
+logs/
+*.log
+.sparkStaging/
+
+# PostgreSQL
+pgdata/
+postgres_data/
+docker-entrypoint-initdb.d/
+*.dump
+*.backup
+*.sql.gz
+.psql_history
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
